@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="grofers-api" />
-        <module name="grofers-db" />
         <module name="grofers-service" />
+        <module name="grofers-db" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

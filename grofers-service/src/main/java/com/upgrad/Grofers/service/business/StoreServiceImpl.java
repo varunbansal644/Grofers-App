@@ -25,6 +25,7 @@ public class StoreServiceImpl implements StoreService {
      */
     @Override
     public StoreEntity StoreByUUID(String StoreId) throws StoreNotFoundException {
+        return null;
     }
 
     /**
@@ -32,6 +33,7 @@ public class StoreServiceImpl implements StoreService {
      */
     @Override
     public List<StoreEntity> StoresByName(String StoreName) throws StoreNotFoundException {
+        return null;
     }
 
     /**
@@ -39,6 +41,7 @@ public class StoreServiceImpl implements StoreService {
      */
     @Override
     public List<StoreEntity> StoresByRating() {
+        return null;
     }
 
     /**
@@ -46,6 +49,7 @@ public class StoreServiceImpl implements StoreService {
      */
     @Override
     public List<StoreEntity> StoreByCategory(String categoryId) throws CategoryNotFoundException {
+        return null;
     }
 
 }

@@ -1,9 +1,32 @@
 package com.upgrad.Grofers.api.controllers;
 
 
+import com.upgrad.Grofers.api.*;
+import com.upgrad.Grofers.service.business.CategoryService;
+import com.upgrad.Grofers.service.business.CustomerService;
+import com.upgrad.Grofers.service.business.ItemService;
+import com.upgrad.Grofers.service.business.StoreService;
+import com.upgrad.Grofers.service.entity.CategoryEntity;
+import com.upgrad.Grofers.service.entity.ItemEntity;
+import com.upgrad.Grofers.service.entity.StoreEntity;
+import com.upgrad.Grofers.service.exception.CategoryNotFoundException;
+import com.upgrad.Grofers.service.exception.StoreNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.UUID;
+
 @RequestMapping("/store") public class StoreController {
 
-	@Autowired private StoreService StoreService;
+	@Autowired
+	private com.upgrad.Grofers.service.business.StoreService StoreService;
 
 	@Autowired private ItemService itemService;
 
@@ -21,6 +44,7 @@ package com.upgrad.Grofers.api.controllers;
 	@RequestMapping(method = RequestMethod.GET, path = "/{Store_id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<StoreDetailsResponse> getStoreDetails(@PathVariable("Store_id") String StoreId)
 			throws StoreNotFoundException {
+
 
 		StoreEntity StoreEntity = StoreService.StoreByUUID(StoreId);
 		List<CategoryEntity> StoreCategoryEntityList = categoryService.getCategoriesByStores(StoreId);
@@ -64,6 +88,7 @@ package com.upgrad.Grofers.api.controllers;
 	 */
 	@RequestMapping(method = RequestMethod.GET, path = "name/{Store_name}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<StoreListResponse> getStoreByName(@PathVariable("Store_name") String StoreName) throws StoreNotFoundException {
+		return null;
 	}
 
 	/**
@@ -75,6 +100,7 @@ package com.upgrad.Grofers.api.controllers;
 	 */
 	@RequestMapping(method = RequestMethod.GET, path = "/category/{category_id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<StoreListResponse> getStoreByCategory(@PathVariable("category_id") String categoryId) throws CategoryNotFoundException {
+		return null;
 	}
 
 	/**
@@ -84,6 +110,7 @@ package com.upgrad.Grofers.api.controllers;
 	 */
 	@RequestMapping(method = RequestMethod.GET, path = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<StoreListResponse> getAllStore() {
+		return null;
 	}
 
 

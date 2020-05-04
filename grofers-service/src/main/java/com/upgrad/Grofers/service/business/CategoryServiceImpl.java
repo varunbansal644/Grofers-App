@@ -19,6 +19,7 @@ public class CategoryServiceImpl implements CategoryService{
      */
     @Override
     public CategoryEntity getCategoryById(String categoryId) throws CategoryNotFoundException {
+        return null;
     }
 
     /**
@@ -26,6 +27,7 @@ public class CategoryServiceImpl implements CategoryService{
      */
     @Override
     public List<CategoryEntity> getAllCategoriesOrderedByName()  {
+        return null;
     }
 
     /**
@@ -34,5 +36,6 @@ public class CategoryServiceImpl implements CategoryService{
     @Override
     public List<CategoryEntity> getCategoriesByStores(String storeId)  {
 
+        return null;
     }
 }

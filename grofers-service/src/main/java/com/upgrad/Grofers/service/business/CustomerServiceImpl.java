@@ -36,6 +36,7 @@ public class CustomerServiceImpl implements CustomerService {
         String regex = "^[\\w!#$%&’*+/=?`{|}~^-]+(?:\\.[\\w!#$%&’*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(customerEntity.getEmail());
+        return customerEntity;
     }
 
     /**
@@ -46,6 +47,7 @@ public class CustomerServiceImpl implements CustomerService {
 
         CustomerEntity customerEntity = customerDao.getCustomerByContactNumber(contactNumber);
 
+        return null;
     }
 
     /**
@@ -67,6 +69,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Transactional(propagation = Propagation.REQUIRED)
     public CustomerEntity updateCustomerPassword(String oldPassword,String newPassword, CustomerEntity customerEntity) throws UpdateCustomerException {
         final String encryptedOldPassword = PasswordCryptographyProvider.encrypt(oldPassword, customerEntity.getSalt());
+        return customerEntity;
     }
 
 

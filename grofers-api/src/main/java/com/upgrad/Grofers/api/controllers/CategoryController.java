@@ -1,4 +1,16 @@
 package com.upgrad.Grofers.api.controllers;
+
+import com.upgrad.Grofers.api.CategoriesListResponse;
+import com.upgrad.Grofers.api.CategoryDetailsResponse;
+import com.upgrad.Grofers.service.business.CategoryService;
+import com.upgrad.Grofers.service.exception.CategoryNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
 @RequestMapping("/category")
 public class CategoryController {
 
@@ -14,6 +26,7 @@ public class CategoryController {
      */
     @RequestMapping(method = RequestMethod.GET, path = "/{category_id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<CategoryDetailsResponse> getCategoryById(@PathVariable("category_id") String categoryId) throws CategoryNotFoundException {
+        return null;
     }
 
     /**
@@ -23,5 +36,6 @@ public class CategoryController {
      */
     @RequestMapping(method = RequestMethod.GET, path = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<CategoriesListResponse> getAllCategories() {
+        return null;
     }
 }

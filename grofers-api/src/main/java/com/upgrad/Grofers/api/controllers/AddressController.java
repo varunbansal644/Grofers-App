@@ -1,5 +1,9 @@
 package com.upgrad.Grofers.api.controllers;
 
+import com.upgrad.Grofers.service.business.AddressService;
+import com.upgrad.Grofers.service.business.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class AddressController {
 
     @Autowired
