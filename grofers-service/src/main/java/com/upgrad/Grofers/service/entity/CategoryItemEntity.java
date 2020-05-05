@@ -6,6 +6,7 @@ import org.hibernate.annotations.OnDeleteAction;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.Comparator;
 
 /**
  * CategoryItemEntity class contains all the attributes to be mapped to all the fields in category_item table in the database.
@@ -57,4 +58,14 @@ public class CategoryItemEntity implements Serializable {
     public void setItem(ItemEntity item) {
         this.item = item;
     }
+
+    public static Comparator<CategoryEntity> CatNameComparator = new Comparator<CategoryEntity>() {
+
+        public int compare(CategoryEntity c1, CategoryEntity c2) {
+            String CatName1 = c1.getCategoryName().toUpperCase();
+            String CatName2 = c2.getCategoryName().toUpperCase();
+
+            //ascending order
+            return CatName1.compareTo(CatName2);
+        }};
 }

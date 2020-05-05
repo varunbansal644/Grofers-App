@@ -10,9 +10,7 @@ import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-/**
- * CategoryDao class provides the database access for all the endpoints in Category controller.
- */
+
 @Repository
 @Transactional
 public class CategoryDaoImpl implements CategoryDao{

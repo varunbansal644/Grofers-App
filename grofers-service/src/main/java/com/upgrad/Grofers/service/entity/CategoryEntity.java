@@ -5,12 +5,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
-/**
- * CategoryEntity class contains all the attributes to be mapped to all the fields in category table in the database.
- * All the annotations which are used to specify all the constraints to the columns in the database must be correctly implemented.
- */
 @Entity
 @Table(name = "category")
 @NamedQueries({
@@ -82,4 +79,14 @@ public class CategoryEntity implements Serializable {
     public void setStores(List<StoreEntity> stores) {
         this.stores = stores;
     }
+
+    public static Comparator<CategoryEntity> CatNameComparator = new Comparator<CategoryEntity>() {
+
+        public int compare(CategoryEntity c1, CategoryEntity c2) {
+            String CatName1 = c1.getCategoryName().toUpperCase();
+            String CatName2 = c2.getCategoryName().toUpperCase();
+
+            //ascending order
+            return CatName1.compareTo(CatName2);
+        }};
 }

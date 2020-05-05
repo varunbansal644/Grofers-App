@@ -14,9 +14,7 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private ItemDao itemDao;
 
-    /**
-     * The method implements the business logic for getting list of items based on store and category uuid.
-     */
+
     @Override
     public List<ItemEntity> getItemsByCategoryAndStore(String storeId, String categoryId) {
         return itemDao.getItemsByCategoryAndStore(storeId, categoryId);
