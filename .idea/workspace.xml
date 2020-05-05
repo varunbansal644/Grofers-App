@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e67918-b989-42da-80f4-2d5b64800f23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Grofers-Backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao/CategoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao/CategoryDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +41,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bRSUcliX2SURGsMvFUcRMfiIBZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,6 +78,18 @@
       <recent name="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao" />
       <recent name="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="GroferApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -127,11 +138,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
