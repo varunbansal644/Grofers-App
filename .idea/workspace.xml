@@ -2,56 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e67918-b989-42da-80f4-2d5b64800f23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/classes/com/upgrad/Grofers/api/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/classes/com/upgrad/Grofers/api/config/SwaggerConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/.swagger-codegen-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/.swagger-codegen-ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressList.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressListState.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/AddressListState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoriesListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoriesListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/CategoryListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/DeleteAddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/DeleteAddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/ItemList.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/ItemList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/LogoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/LogoutResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SaveAddressRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SaveAddressRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SaveAddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SaveAddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SignupCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SignupCustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SignupCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/SignupCustomerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponseAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponseAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponseAddressState.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreDetailsResponseAddressState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreList.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/StoreListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/UpdatePasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/UpdatePasswordRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/UpdatePasswordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/com/upgrad/Grofers/api/UpdatePasswordResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/RFC3339DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/RFC3339DateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/Swagger2SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/Swagger2SpringBoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/configuration/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/configuration/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/generated-sources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/generated-sources/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/grofers-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/grofers-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-db/target/grofers-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-db/target/grofers-db.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-db/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/target/grofers-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/target/grofers-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grofers-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Grofers-Backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao/CategoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao/CategoryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity/CategoryItemEntity.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,15 +49,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1bRSUcliX2SURGsMvFUcRMfiIBZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586091836935" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -118,18 +79,6 @@
       <recent name="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/dao" />
       <recent name="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/entity" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="GroferApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -178,12 +127,11 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

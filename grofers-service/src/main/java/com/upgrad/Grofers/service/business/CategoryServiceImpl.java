@@ -14,25 +14,25 @@ public class CategoryServiceImpl implements CategoryService{
     @Autowired
     private CategoryDao categoryDao;
 
-    /**
-     * The method implements the business logic for getting category by its id endpoint.
-     */
+
     @Override
     public CategoryEntity getCategoryById(String categoryId) throws CategoryNotFoundException {
-        return null;
+        String uuid = null;
+        CategoryEntity categoryEntity = categoryDao.getCategoryById(uuid);
+        if(uuid == " ") {
+            throw new CategoryNotFoundException("CNF-001","Category id field should not be empty");
+        } else if(categoryEntity == null) {
+            throw new CategoryNotFoundException("CNF-002","No category by this id");
+        } else {
+            return categoryEntity;
+        }
     }
 
-    /**
-     * The method implements the business logic for getting all categories ordered by their name endpoint.
-     */
     @Override
     public List<CategoryEntity> getAllCategoriesOrderedByName()  {
         return null;
     }
 
-    /**
-     * The method implements the business logic for getting categories for any particular store.
-     */
     @Override
     public List<CategoryEntity> getCategoriesByStores(String storeId)  {
 
