@@ -21,4 +21,6 @@ public interface CustomerService {
     CustomerEntity updateCustomerPassword(String oldPassword, String newPassword, CustomerEntity customerEntity) throws
             UpdateCustomerException;
     CustomerEntity getCustomer(String access_token) throws AuthorizationFailedException;
+
+    void checkCustomerEntityValidity(String bearerToken);
 }

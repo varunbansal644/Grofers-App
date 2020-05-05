@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87e67918-b989-42da-80f4-2d5b64800f23" name="Default Changelist" comment="" />
+    <list default="true" id="87e67918-b989-42da-80f4-2d5b64800f23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/GroferApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-api/src/main/java/com/upgrad/Grofers/api/GroferApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/grofers-service/src/main/java/com/upgrad/Grofers/service/business/CustomerService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
