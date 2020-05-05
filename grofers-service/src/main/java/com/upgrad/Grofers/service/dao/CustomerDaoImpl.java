@@ -30,7 +30,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     public CustomerEntity getCustomerByContactNumber(String contactNumber) {
         try {
-            return entityManager.createNamedQuery("customerByContactNumber", CustomerEntity.class).setParameter("contactNumber", contactNumber).getSingleResult();
+            return entityManager.createNamedQuery("customerByContactNumber", CustomerEntity.class)
+                    .setParameter("contactNumber", contactNumber).getSingleResult();
         } catch (NoResultException nre) {
             return null;
         }
@@ -38,7 +39,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     public CustomerEntity getCustomerById(Integer id) {
         try {
-            return entityManager.createNamedQuery("customerById", CustomerEntity.class).setParameter("id", id).getSingleResult();
+            return entityManager.createNamedQuery("customerById", CustomerEntity.class)
+                    .setParameter("id", id).getSingleResult();
         } catch (NoResultException nre) {
             return null;
         }
@@ -52,7 +54,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     public CustomerAuthEntity getCustomerAuthByAccesstoken(String accesstoken) {
         try {
-            return entityManager.createNamedQuery("customerAuthByAccesstoken", CustomerAuthEntity.class).setParameter("accesstoken", accesstoken).getSingleResult();
+            return entityManager.createNamedQuery("customerAuthByAccesstoken", CustomerAuthEntity.class)
+                    .setParameter("accesstoken", accesstoken).getSingleResult();
         } catch (NoResultException nre) {
             return null;
         }
