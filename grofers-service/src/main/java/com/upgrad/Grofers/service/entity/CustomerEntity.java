@@ -8,6 +8,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * CustomerEntity class contains all the attributes to be mapped to all the fields in customer table in the database.
@@ -58,6 +59,9 @@ public class CustomerEntity implements Serializable {
         this.email = email;
         this.contactNumber = contactNumber;
         this.password = password;
+    }
+
+    public static List<AddressEntity> getAddress() {
     }
 
     public Integer getId() {
