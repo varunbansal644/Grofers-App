@@ -1,41 +1,150 @@
-package com.upgrad.Grofers.service.business;
+package com.upgrad.Grofers.service.entity;
 
-import com.upgrad.Grofers.service.dao.CategoryDao;
-import com.upgrad.Grofers.service.entity.CategoryEntity;
-import com.upgrad.Grofers.service.exception.CategoryNotFoundException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
+import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
-@Service
-public class CategoryServiceImpl implements CategoryService{
+/**
+ * CustomerEntity class contains all the attributes to be mapped to all the fields in customer table in the database.
+ * All the annotations which are used to specify all the constraints to the columns in the database must be correctly implemented.
+ */
+@Entity
+@Table(name = "customer")
+@NamedQueries({
+        @NamedQuery(name = "customerByContactNumber", query = "select c from CustomerEntity c where " +
+                "c.contactNumber = :contactNumber"),
+        @NamedQuery(name = "customerById", query = "select c from CustomerEntity c where c.id =:id")
+})
+public class CustomerEntity implements Serializable {
 
-    @Autowired
-    private CategoryDao categoryDao;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
+    @Column(name = "UUID", length = 64, nullable = false)
+    private String uuid;
 
-    @Override
-    public CategoryEntity getCategoryById(String categoryId) throws CategoryNotFoundException {
-        String uuid = null;
-        CategoryEntity categoryEntity = categoryDao.getCategoryById(uuid);
-        if(uuid == " ") {
-            throw new CategoryNotFoundException("CNF-001","Category id field should not be empty");
-        } else if(categoryEntity == null) {
-            throw new CategoryNotFoundException("CNF-002","No category by this id");
-        } else {
-            return categoryEntity;
-        }
+    @Column(name = "firstname", nullable = false)
+    private String firstName;
+
+    @Column(name = "lastname")
+    private String lastName;
+
+    @Column(name = "email",nullable = false)
+    private String email;
+
+    @Column(name = "contact_number",nullable = false, unique = true)
+    private String contactNumber;
+
+    @Column(nullable = false)
+    @JsonIgnore
+    private String password;
+
+    @Column(name = "salt",length = 200, nullable = false)
+    private String salt;
+
+    public CustomerEntity() {
+    }
+
+    public CustomerEntity(String uuid, String firstName, String lastName, String email, String contactNumber, String password) {
+        this.uuid = uuid;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.contactNumber = contactNumber;
+        this.password = password;
+    }
+
+    public static List<AddressEntity> getAddress() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getContactNumber() {
+        return contactNumber;
+    }
+
+    public void setContactNumber(String contactNumber) {
+        this.contactNumber = contactNumber;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
+
+    public static long getSerialversionuid() {
+        long serialVersionUID = 0;
+        return serialVersionUID;
     }
 
     @Override
-    public List<CategoryEntity> getAllCategoriesOrderedByName()  {
-        return null;
+    public boolean equals(Object obj) {
+        return new EqualsBuilder().append(this, obj).isEquals();
     }
 
     @Override
-    public List<CategoryEntity> getCategoriesByStores(String storeId)  {
+    public int hashCode() {
+        return new HashCodeBuilder().append(this).hashCode();
+    }
 
-        return null;
+    @Override
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.MULTI_LINE_STYLE);
     }
 }

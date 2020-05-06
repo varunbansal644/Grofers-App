@@ -109,4 +109,6 @@ public class AddressEntity implements Serializable {
         this.state = state;
     }
 
+    public void setActive(int i) {
+    }
 }
